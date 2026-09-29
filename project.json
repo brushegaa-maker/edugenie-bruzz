@@ -1,0 +1,14 @@
+{
+  "project": "EduGenie",
+  "version": "1.0.0",
+  "source_document": "EduGenie-Google Gemini Powered Learning Assistant_Document.docx.pdf",
+  "entrypoint": "main.py",
+  "run_command": "uvicorn main:app --reload",
+  "endpoints": [
+    "/qa",
+    "/explain",
+    "/quiz",
+    "/summarize",
+    "/learn/recommendations"
+  ]
+}
